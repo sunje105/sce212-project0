@@ -13,8 +13,8 @@ struct file_struct {
 
 struct directory_struct {
 	char name[MAX_NAME_SIZE];
-	struct directory_struct *dir_list[MAX_FILE_LIST_SIZE];
-	struct file_struct *file_list[MAX_DIR_LIST_SIZE];
+	struct directory_struct *dir_list[MAX_DIR_LIST_SIZE];
+	struct file_struct *file_list[MAX_FILE_LIST_SIZE];
 	int num_file;
 	int num_dir;	
 };
