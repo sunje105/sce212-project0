@@ -9,7 +9,7 @@ int main(int argc, char **argv) {
 	FILE *file_input, *dir_input;
 
 	if (argc != 3) {
-		fprintf(stderr, "Usage: main <dir_input file> <file_input file>\n");
+		fprintf(stderr, "Usage: pa0_b <file_input file> <dir_input file>\n");
 		exit(1);
 	}
 
