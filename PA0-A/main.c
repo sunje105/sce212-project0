@@ -58,7 +58,7 @@ void calc_area2(struct Point2 *P1, struct Point2 *P2, int *area)
 
 char* reverse(char *word)
 {
-	/* Fill this function */
+	/* Fill this function */1
 	return word;
 }
 
